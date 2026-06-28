@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tejaswi Thakur – Graphic Designer, Logo Designer & Brand Identity Designer. Creating memorable visual identities for ambitious brands." />
+  <meta name="keywords" content="graphic designer, logo designer, brand identity, Tejaswi Thakur, branding, visual identity" />
+  <meta name="author" content="Tejaswi Thakur" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Tejaswi Thakur — Brand Identity & Logo Designer" />
+  <meta property="og:description" content="Designing brands that people remember. Thoughtful logo design and strategic branding for ambitious businesses." />
+  <meta property="og:image" content="assets/images/profile/tejaswi.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://tejaswithaakur.github.io" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Tejaswi Thakur — Brand Identity & Logo Designer" />
+  <meta name="twitter:description" content="Designing brands that people remember." />
+  <meta name="twitter:image" content="assets/images/profile/tejaswi.png" />
+
+  <title>Tejaswi Thakur — Brand Identity & Logo Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Scroll Progress -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Loading Screen -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">T</div>
+      <div class="loader-bar"><div class="loader-fill" id="loaderFill"></div></div>
+      <p class="loader-text">Crafting Experience…</p>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">Tejaswi<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#logos" class="nav-link">Logos</a></li>
+        <li><a href="#mockups" class="nav-link">Mockups</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Hire Me</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════ HERO ═══════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+      <!-- Floating logo construction elements -->
+      <svg class="floating-shapes" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="100" cy="150" r="40" fill="none" stroke="rgba(255,77,109,0.15)" stroke-width="1" class="fs fs1"/>
+        <circle cx="100" cy="150" r="70" fill="none" stroke="rgba(255,77,109,0.08)" stroke-width="1" class="fs fs1"/>
+        <line x1="60" y1="150" x2="140" y2="150" stroke="rgba(255,77,109,0.15)" stroke-width="0.5" class="fs fs2"/>
+        <line x1="100" y1="110" x2="100" y2="190" stroke="rgba(255,77,109,0.15)" stroke-width="0.5" class="fs fs2"/>
+        <polygon points="1100,100 1150,180 1050,180" fill="none" stroke="rgba(255,77,109,0.12)" stroke-width="1" class="fs fs3"/>
+        <rect x="1080" y="80" width="80" height="80" fill="none" stroke="rgba(255,77,109,0.08)" stroke-width="1" class="fs fs3"/>
+        <circle cx="200" cy="650" r="30" fill="none" stroke="rgba(255,117,143,0.12)" stroke-width="1" class="fs fs4"/>
+        <line x1="170" y1="620" x2="230" y2="680" stroke="rgba(255,117,143,0.1)" stroke-width="0.5" class="fs fs4"/>
+        <line x1="230" y1="620" x2="170" y2="680" stroke="rgba(255,117,143,0.1)" stroke-width="0.5" class="fs fs4"/>
+        <circle cx="1000" cy="600" r="50" fill="none" stroke="rgba(255,214,224,0.1)" stroke-width="1" class="fs fs5"/>
+        <circle cx="1000" cy="600" r="25" fill="none" stroke="rgba(255,214,224,0.08)" stroke-width="1" class="fs fs5"/>
+        <line x1="950" y1="600" x2="1050" y2="600" stroke="rgba(255,214,224,0.08)" stroke-width="0.5" class="fs fs6"/>
+        <path d="M 600 50 Q 650 30 700 50" fill="none" stroke="rgba(255,77,109,0.1)" stroke-width="1" class="fs fs6"/>
+        <path d="M 580 750 L 620 720 L 660 750" fill="none" stroke="rgba(255,77,109,0.08)" stroke-width="1" class="fs fs1"/>
+      </svg>
+    </div>
+
+    <div class="hero-container">
+      <div class="hero-content" data-reveal>
+        <span class="hero-badge">✦ Available for Projects</span>
+        <h1 class="hero-title">
+          Designing Brands<br/>
+          <span class="gradient-text">That People</span><br/>
+          Remember.
+        </h1>
+        <p class="hero-sub">Helping businesses create memorable visual identities through thoughtful logo design and strategic branding.</p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn btn-primary ripple">Hire Me</a>
+          <a href="#logos" class="btn btn-glass ripple">View Portfolio</a>
+          <a href="#" class="btn btn-outline ripple" download>Download Resume</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num" data-count="50">0</span><span>+</span>
+            <p>Projects Done</p>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num" data-count="30">0</span><span>+</span>
+            <p>Happy Clients</p>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num" data-count="2">0</span><span>+</span>
+            <p>Years Exp.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image-wrap" data-reveal>
+        <div class="hero-glow-ring ring-outer"></div>
+        <div class="hero-glow-ring ring-mid"></div>
+        <div class="hero-glow-ring ring-inner"></div>
+        <div class="hero-img-frame">
+          <img src="assets/images/profile/tejaswi.png" alt="Tejaswi Thakur – Graphic Designer" class="hero-img" />
+        </div>
+        <div class="hero-badge-float badge-top">
+          <span>✦</span> Logo Design
+        </div>
+        <div class="hero-badge-float badge-bottom">
+          <span>✦</span> Brand Identity
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll down">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ═══════════════════════════════════ ABOUT ═══════════════════════════════════ -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text" data-reveal>
+          <span class="section-eyebrow">About Me</span>
+          <h2 class="section-title">A Designer Who<br/><span class="gradient-text">Thinks in Brands</span></h2>
+          <p class="about-para">I'm <strong>Tejaswi Thakur</strong> — a passionate Graphic Designer, Logo Designer, and Brand Identity Specialist driven by the belief that great design is more than aesthetics. It's a feeling, a story, a lasting impression.</p>
+          <p class="about-para">With a sharp eye for minimal elegance and a deep love for intentional design, I craft visual identities that don't just look beautiful — they <em>connect</em>. Every curve, colour, and composition I create is rooted in purpose.</p>
+          <p class="about-para">I believe brands deserve to be bold, refined, and unforgettable. Whether it's a startup finding its voice or an established business redefining itself, I bring creative thinking and strategic precision to every project.</p>
+          <div class="about-tags">
+            <span class="tag">Creative Thinker</span>
+            <span class="tag">Minimal Design Lover</span>
+            <span class="tag">Brand Strategist</span>
+            <span class="tag">Detail Obsessed</span>
+          </div>
+          <a href="#contact" class="btn btn-primary ripple" style="margin-top:2rem;display:inline-block;">Let's Create Together</a>
+        </div>
+
+        <div class="about-cards" data-reveal>
+          <div class="about-card glass">
+            <div class="about-card-icon">🎨</div>
+            <h3>Passion-Driven</h3>
+            <p>Every project receives 100% creative energy. Design isn't just work — it's a craft I live and breathe.</p>
+          </div>
+          <div class="about-card glass">
+            <div class="about-card-icon">💡</div>
+            <h3>Concept-First</h3>
+            <p>I begin with strategy and storytelling, ensuring every visual decision carries meaning and intent.</p>
+          </div>
+          <div class="about-card glass">
+            <div class="about-card-icon">✨</div>
+            <h3>Minimal Excellence</h3>
+            <p>Less is more. I distil complex ideas into clean, elegant designs that speak volumes in silence.</p>
+          </div>
+          <div class="about-card glass">
+            <div class="about-card-icon">🚀</div>
+            <h3>Client-Focused</h3>
+            <p>Your vision is my blueprint. I collaborate closely, ensuring results that exceed expectations every time.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════ SERVICES ═══════════════════════════════════ -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-eyebrow">What I Offer</span>
+        <h2 class="section-title">Services Built for<br/><span class="gradient-text">Lasting Impact</span></h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card glass" data-reveal>
+          <div class="service-num">01</div>
+          <div class="service-icon">◎</div>
+          <h3>Logo Design</h3>
+          <p>Distinctive marks that capture your brand's soul — timeless, versatile, and instantly recognisable.</p>
+        </div>
+        <div class="service-card glass" data-reveal>
+          <div class="service-num">02</div>
+          <div class="service-icon">◈</div>
+          <h3>Brand Identity</h3>
+          <p>Complete visual systems — colour palettes, typography, guidelines — that make your brand cohesive.</p>
+        </div>
+        <div class="service-card glass" data-reveal>
+          <div class="service-num">03</div>
+          <div class="service-icon">◇</div>
+          <h3>Packaging Design</h3>
+          <p>Packaging that sells on the shelf and tells a story before the product is even opened.</p>
+        </div>
+        <div class="service-card glass" data-reveal>
+          <div class="service-num">04</div>
+          <div class="service-icon">▢</div>
+          <h3>Business Card Design</h3>
+          <p>First impressions that last. Elegant cards that reflect your brand with every handoff.</p>
+        </div>
+        <div class="service-card glass" data-reveal>
+          <div class="service-num">05</div>
+          <div class="service-icon">◉</div>
+          <h3>Social Media Design</h3>
+          <p>Scroll-stopping visuals and cohesive feeds that build brand recognition across platforms.</p>
+        </div>
+        <div class="service-card glass" data-reveal>
+          <div class="service-num">06</div>
+          <div class="service-icon">◬</div>
+          <h3>Brand Guidelines</h3>
+          <p>Comprehensive rulebooks that keep your brand consistent across every touchpoint.</p>
+        </div>
+        <div class="service-card glass" data-reveal>
+          <div class="service-num">07</div>
+          <div class="service-icon">⬡</div>
+          <h3>Mockup Presentation</h3>
+          <p>Photorealistic mockups that bring your brand to life and impress clients and stakeholders.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════ SKILLS ═══════════════════════════════════ -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="skills-grid">
+        <div class="skills-left" data-reveal>
+          <span class="section-eyebrow">My Expertise</span>
+          <h2 class="section-title">Tools & Skills<br/><span class="gradient-text">That Drive Results</span></h2>
+          <p style="color:var(--gray);line-height:1.8;margin-top:1rem;">From concept sketching to polished final delivery, I wield industry tools with precision and artistry. Each skill is honed through real-world projects and a relentless pursuit of excellence.</p>
+        </div>
+        <div class="skills-bars" data-reveal>
+          <div class="skill-item">
+            <div class="skill-label"><span>Logo Design</span><span class="skill-pct">100%</span></div>
+            <div class="skill-track"><div class="skill-bar" data-width="100"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-label"><span>Brand Identity</span><span class="skill-pct">95%</span></div>
+            <div class="skill-track"><div class="skill-bar" data-width="95"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-label"><span>Packaging Design</span><span class="skill-pct">90%</span></div>
+            <div class="skill-track"><div class="skill-bar" data-width="90"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-label"><span>Canva</span><span class="skill-pct">100%</span></div>
+            <div class="skill-track"><div class="skill-bar" data-width="100"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-label"><span>Inkscape</span><span class="skill-pct">95%</span></div>
+            <div class="skill-track"><div class="skill-bar" data-width="95"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-label"><span>Figma</span><span class="skill-pct">85%</span></div>
+            <div class="skill-track"><div class="skill-bar" data-width="85"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════ LOGO GALLERY ═══════════════════════════════════ -->
+  <section class="gallery section" id="logos">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-eyebrow">Logo Portfolio</span>
+        <h2 class="section-title">Logo <span class="gradient-text">Designs</span></h2>
+        <p class="section-desc">Each mark tells a unique story — crafted with intention, built to last.</p>
+      </div>
+
+      <div class="gallery-grid logos-grid" id="logosGrid">
+        <div class="gallery-card" data-reveal>
+          <div class="gallery-img-wrap">
+            <img src="assets/images/logos/logo-beanbliss.png" alt="Beanbliss Coffee Logo" loading="lazy" />
+            <div class="gallery-overlay">
+              <span>Beanbliss</span>
+              <p>Coffee Brand Logo</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-card" data-reveal>
+          <div class="gallery-img-wrap">
+            <img src="assets/images/logos/logo-eyeverse.png" alt="Eye-Verse Logo" loading="lazy" />
+            <div class="gallery-overlay">
+              <span>Eye-Verse</span>
+              <p>Fashion Brand Logo</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-card" data-reveal>
+          <div class="gallery-img-wrap">
+            <img src="assets/images/logos/logo-eloria.png" alt="Eloria Skincare Logo" loading="lazy" />
+            <div class="gallery-overlay">
+              <span>Eloria</span>
+              <p>Skincare Brand Logo</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-card" data-reveal>
+          <div class="gallery-img-wrap">
+            <img src="assets/images/logos/logo-4.png" alt="Sweetoria Logo" loading="lazy" />
+            <div class="gallery-overlay">
+              <span>Sweetoria</span>
+              <p>Bakery Brand Logo</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-card" data-reveal>
+          <div class="gallery-img-wrap">
+            <img src="assets/images/logos/logo-5.png" alt="Logo Design" loading="lazy" />
+            <div class="gallery-overlay">
+              <span>Brand Logo</span>
+              <p>Logo Design</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-card" data-reveal>
+          <div class="gallery-img-wrap">
+            <img src="assets/images/logos/logo-6.png" alt="Logo Design" loading="lazy" />
+            <div class="gallery-overlay">
+              <span>Brand Logo</span>
+              <p>Logo Design</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-card" data-reveal>
+          <div class="gallery-img-wrap">
+            <img src="assets/images/logos/logo-7.png" alt="Logo Design" loading="lazy" />
+            <div class="gallery-overlay">
+              <span>Brand Logo</span>
+              <p>Logo Design</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-card" data-reveal>
+          <div class="gallery-img-wrap">
+            <img src="assets/images/logos/logo-bloomora.png" alt="Bloomora Logo" loading="lazy" />
+            <div class="gallery-overlay">
+              <span>Bloomora</span>
+              <p>Floral Brand Logo</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-card" data-reveal>
+          <div class="gallery-img-wrap">
+            <img src="assets/images/logos/logo-9.png" alt="Logo Design" loading="lazy" />
+            <div class="gallery-overlay">
+              <span>Brand Logo</span>
+              <p>Logo Design</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-card" data-reveal>
+          <div class="gallery-img-wrap">
+            <img src="assets/images/logos/logo-10.png" alt="Logo Design" loading="lazy" />
+            <div class="gallery-overlay">
+              <span>Brand Logo</span>
+              <p>Logo Design</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-card" data-reveal>
+          <div class="gallery-img-wrap">
+            <img src="assets/images/logos/logo-11.png" alt="Logo Design" loading="lazy" />
+            <div class="gallery-overlay">
+              <span>Brand Logo</span>
+              <p>Logo Design</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════ MOCKUP GALLERY ═══════════════════════════════════ -->
+  <section class="gallery section mockup-section" id="mockups">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-eyebrow">Brand Presentations</span>
+        <h2 class="section-title">Mockup <span class="gradient-text">Showcase</span></h2>
+        <p class="section-desc">Full brand systems brought to life — from concept to real-world application.</p>
+      </div>
+
+      <div class="mockups-grid" id="mockupsGrid">
+        <div class="mockup-card" data-reveal>
+          <div class="mockup-img-wrap">
+            <img src="assets/images/mockups/mockup-beanbliss.png" alt="Beanbliss Brand Mockup" loading="lazy" />
+            <div class="mockup-overlay">
+              <span>Beanbliss</span>
+              <p>Complete Brand Identity Mockup</p>
+            </div>
+          </div>
+        </div>
+        <div class="mockup-card featured-mockup" data-reveal>
+          <div class="mockup-img-wrap">
+            <img src="assets/images/mockups/mockup-velora.png" alt="VELORA Luxury Brand Mockup" loading="lazy" />
+            <div class="mockup-overlay">
+              <span>VELORA</span>
+              <p>Luxury Perfume Brand Identity</p>
+            </div>
+          </div>
+        </div>
+        <div class="mockup-card" data-reveal>
+          <div class="mockup-img-wrap">
+            <img src="assets/images/mockups/mockup-karigari.png" alt="Karigari Brand Mockup" loading="lazy" />
+            <div class="mockup-overlay">
+              <span>Karigari</span>
+              <p>Handcraft Brand Identity</p>
+            </div>
+          </div>
+        </div>
+        <div class="mockup-card" data-reveal>
+          <div class="mockup-img-wrap">
+            <img src="assets/images/mockups/mockup-2.png" alt="Brand Mockup" loading="lazy" />
+            <div class="mockup-overlay">
+              <span>Brand Mockup</span>
+              <p>Full Brand Identity Presentation</p>
+            </div>
+          </div>
+        </div>
+        <div class="mockup-card" data-reveal>
+          <div class="mockup-img-wrap">
+            <img src="assets/images/mockups/mockup-3.png" alt="Brand Mockup" loading="lazy" />
+            <div class="mockup-overlay">
+              <span>Brand Mockup</span>
+              <p>Full Brand Identity Presentation</p>
+            </div>
+          </div>
+        </div>
+        <div class="mockup-card" data-reveal>
+          <div class="mockup-img-wrap">
+            <img src="assets/images/mockups/mockup-4.png" alt="Brand Mockup" loading="lazy" />
+            <div class="mockup-overlay">
+              <span>Brand Mockup</span>
+              <p>Brand Identity Presentation</p>
+            </div>
+          </div>
+        </div>
+        <div class="mockup-card" data-reveal>
+          <div class="mockup-img-wrap">
+            <img src="assets/images/mockups/mockup-perfume.png" alt="Perfume Brand Mockup" loading="lazy" />
+            <div class="mockup-overlay">
+              <span>Perfume Brand</span>
+              <p>Luxury Packaging Design</p>
+            </div>
+          </div>
+        </div>
+        <div class="mockup-card" data-reveal>
+          <div class="mockup-img-wrap">
+            <img src="assets/images/mockups/mockup-5.png" alt="Brand Mockup" loading="lazy" />
+            <div class="mockup-overlay">
+              <span>Brand Mockup</span>
+              <p>Brand Identity Presentation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════ FEATURED PROJECTS ═══════════════════════════════════ -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-eyebrow">Featured Work</span>
+        <h2 class="section-title">Projects That<br/><span class="gradient-text">Define My Craft</span></h2>
+      </div>
+
+      <div class="projects-list">
+
+        <!-- Project: GlowBug -->
+        <div class="project-item" data-reveal>
+          <div class="project-content">
+            <div class="project-info">
+              <span class="project-tag">Children's Brand</span>
+              <h3>GlowBug</h3>
+              <p class="project-story">GlowBug is a children's lifestyle brand built around wonder, playfulness, and the magic of growing up. The challenge was to create something that resonated with both kids and parents — charming without being childish.</p>
+              <div class="project-details">
+                <div class="project-detail">
+                  <strong>Concept</strong>
+                  <p>A firefly-inspired mark symbolising curiosity, light, and the joy of discovery.</p>
+                </div>
+                <div class="project-detail">
+                  <strong>Typography</strong>
+                  <p>Rounded, friendly letterforms that feel approachable yet polished.</p>
+                </div>
+                <div class="project-detail">
+                  <strong>Colours</strong>
+                  <p>Warm gold, soft cream, and vivid amber — evoking summer evenings and magic moments.</p>
+                </div>
+              </div>
+            </div>
+            <div class="project-palette">
+              <div class="palette-swatch" style="background:#F5C842;" title="Glow Gold"></div>
+              <div class="palette-swatch" style="background:#FFF3C4;" title="Soft Cream"></div>
+              <div class="palette-swatch" style="background:#FF8C00;" title="Vivid Amber"></div>
+              <div class="palette-swatch" style="background:#1A1A2E;" title="Night Sky"></div>
+            </div>
+          </div>
+          <div class="project-visual glass">
+            <div class="project-placeholder">
+              <div class="pp-circle"></div>
+              <div class="pp-text">GlowBug</div>
+              <p>Firefly • Warmth • Wonder</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project: Mane & Fang -->
+        <div class="project-item reverse" data-reveal>
+          <div class="project-content">
+            <div class="project-info">
+              <span class="project-tag">Pet Care Brand</span>
+              <h3>Mane &amp; Fang</h3>
+              <p class="project-story">A premium pet grooming and care brand that needed to feel both luxurious and warm. Mane &amp; Fang is for pet parents who treat their animals as family — the brand had to match that devotion.</p>
+              <div class="project-details">
+                <div class="project-detail">
+                  <strong>Concept</strong>
+                  <p>A refined monogram weaving animal silhouettes with typographic elegance.</p>
+                </div>
+                <div class="project-detail">
+                  <strong>Typography</strong>
+                  <p>A bold serif anchors the brand — confident, warm, premium.</p>
+                </div>
+                <div class="project-detail">
+                  <strong>Colours</strong>
+                  <p>Deep forest green, warm ivory, and gold accents — nature meets luxury.</p>
+                </div>
+              </div>
+            </div>
+            <div class="project-palette">
+              <div class="palette-swatch" style="background:#2D5016;" title="Forest Green"></div>
+              <div class="palette-swatch" style="background:#F5F0E8;" title="Warm Ivory"></div>
+              <div class="palette-swatch" style="background:#C9A84C;" title="Gold"></div>
+              <div class="palette-swatch" style="background:#8B6F47;" title="Earth Brown"></div>
+            </div>
+          </div>
+          <div class="project-visual glass">
+            <div class="project-placeholder">
+              <div class="pp-circle" style="border-color:#2D5016;"></div>
+              <div class="pp-text" style="color:#2D5016;">M&amp;F</div>
+              <p>Mane &amp; Fang • Premium Pet Care</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project: Twinkle Charm -->
+        <div class="project-item" data-reveal>
+          <div class="project-content">
+            <div class="project-info">
+              <span class="project-tag">Jewellery Brand</span>
+              <h3>Twinkle Charm</h3>
+              <p class="project-story">Twinkle Charm is a boutique jewellery brand specialising in delicate, handcrafted pieces for women who love understated elegance. The brand identity needed to feel precious, feminine, and modern.</p>
+              <div class="project-details">
+                <div class="project-detail">
+                  <strong>Concept</strong>
+                  <p>A star-inspired mark with flowing script — capturing sparkle and femininity.</p>
+                </div>
+                <div class="project-detail">
+                  <strong>Typography</strong>
+                  <p>Thin, elegant script paired with minimal sans — delicate and contemporary.</p>
+                </div>
+                <div class="project-detail">
+                  <strong>Colours</strong>
+                  <p>Blush pink, rose gold, and soft white — jewel-like yet wearable.</p>
+                </div>
+              </div>
+            </div>
+            <div class="project-palette">
+              <div class="palette-swatch" style="background:#FFB6C1;" title="Blush Pink"></div>
+              <div class="palette-swatch" style="background:#B76E79;" title="Rose Gold"></div>
+              <div class="palette-swatch" style="background:#FAFAFA;" title="Soft White"></div>
+              <div class="palette-swatch" style="background:#E8D5D5;" title="Petal"></div>
+            </div>
+          </div>
+          <div class="project-visual glass">
+            <div class="project-placeholder">
+              <div class="pp-circle" style="border-color:#B76E79;"></div>
+              <div class="pp-text" style="color:#B76E79;">✦ TC ✦</div>
+              <p>Twinkle Charm • Fine Jewellery</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project: Bouquet Brand -->
+        <div class="project-item reverse" data-reveal>
+          <div class="project-content">
+            <div class="project-info">
+              <span class="project-tag">Floral Brand</span>
+              <h3>Bouquet Brand</h3>
+              <p class="project-story">A luxury floral gifting brand that required an identity as beautiful as the arrangements themselves. The design needed to evoke emotion, romance, and the ephemeral beauty of flowers.</p>
+              <div class="project-details">
+                <div class="project-detail">
+                  <strong>Concept</strong>
+                  <p>Flowing botanical illustrations fused with elegant typography create a sensory brand mark.</p>
+                </div>
+                <div class="project-detail">
+                  <strong>Typography</strong>
+                  <p>High-contrast serif letterforms — classic, emotional, timeless.</p>
+                </div>
+                <div class="project-detail">
+                  <strong>Colours</strong>
+                  <p>Dusty rose, sage green, and champagne — romance in every shade.</p>
+                </div>
+              </div>
+            </div>
+            <div class="project-palette">
+              <div class="palette-swatch" style="background:#C5847A;" title="Dusty Rose"></div>
+              <div class="palette-swatch" style="background:#8FAF8F;" title="Sage Green"></div>
+              <div class="palette-swatch" style="background:#F5E6C8;" title="Champagne"></div>
+              <div class="palette-swatch" style="background:#3D2B2B;" title="Deep Mocha"></div>
+            </div>
+          </div>
+          <div class="project-visual glass">
+            <div class="project-placeholder">
+              <div class="pp-circle" style="border-color:#C5847A;"></div>
+              <div class="pp-text" style="color:#C5847A;">❀ BB ❀</div>
+              <p>Bouquet Brand • Floral Luxury</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════ DESIGN PROCESS ═══════════════════════════════════ -->
+  <section class="process section" id="process">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-eyebrow">How I Work</span>
+        <h2 class="section-title">The Design<br/><span class="gradient-text">Process</span></h2>
+      </div>
+
+      <div class="process-steps">
+        <div class="process-step" data-reveal>
+          <div class="step-num">01</div>
+          <div class="step-icon">🔍</div>
+          <h3>Discovery</h3>
+          <p>Deep-diving into your business, audience, and goals. Understanding is the foundation of every great design.</p>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step" data-reveal>
+          <div class="step-num">02</div>
+          <div class="step-icon">📊</div>
+          <h3>Research</h3>
+          <p>Analysing competitors, trends, and your target market to create a design that stands apart — not blends in.</p>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step" data-reveal>
+          <div class="step-num">03</div>
+          <div class="step-icon">✏️</div>
+          <h3>Sketch</h3>
+          <p>Raw ideas flow freely. Dozens of concepts sketched rapidly, exploring every creative direction.</p>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step" data-reveal>
+          <div class="step-num">04</div>
+          <div class="step-icon">🎨</div>
+          <h3>Design</h3>
+          <p>The best concepts refined digitally with precision — colour, type, and form brought together beautifully.</p>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step" data-reveal>
+          <div class="step-num">05</div>
+          <div class="step-icon">✨</div>
+          <h3>Presentation</h3>
+          <p>Stunning mockups and brand boards reveal your identity in its full real-world glory.</p>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step" data-reveal>
+          <div class="step-num">06</div>
+          <div class="step-icon">🚀</div>
+          <h3>Final Delivery</h3>
+          <p>Production-ready files in every format you need, along with full brand guidelines for consistent use.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════ TESTIMONIALS ═══════════════════════════════════ -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-eyebrow">Kind Words</span>
+        <h2 class="section-title">Clients Who<br/><span class="gradient-text">Love the Work</span></h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testi-card glass" data-reveal>
+          <div class="testi-stars">★★★★★</div>
+          <p>"Tejaswi didn't just design a logo — she understood my brand's soul and made it visible. The result was beyond anything I imagined. Absolutely phenomenal."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">A</div>
+            <div>
+              <strong>Aisha Khan</strong>
+              <span>Founder, Bloomora</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card glass featured-testi" data-reveal>
+          <div class="testi-stars">★★★★★</div>
+          <p>"Working with Tejaswi was a seamless, joyful experience. She listened, adapted, and delivered a brand identity that our customers instantly fell in love with."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">R</div>
+            <div>
+              <strong>Rahul Mehta</strong>
+              <span>CEO, Beanbliss Coffee</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card glass" data-reveal>
+          <div class="testi-stars">★★★★★</div>
+          <p>"The attention to detail is unmatched. Tejaswi crafted a visual identity that perfectly captured the luxury and craftsmanship of our brand. Truly gifted."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">P</div>
+            <div>
+              <strong>Priya Sharma</strong>
+              <span>Creative Director, VELORA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════ CONTACT ═══════════════════════════════════ -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info" data-reveal>
+          <span class="section-eyebrow">Get in Touch</span>
+          <h2 class="section-title">Let's Build<br/><span class="gradient-text">Something Beautiful</span></h2>
+          <p class="contact-sub">Have a project in mind? I'd love to hear about it. Drop me a message or reach out directly — I respond within 24 hours.</p>
+          <div class="contact-links">
+            <a href="mailto:tejaswi02086@gmail.com" class="contact-link glass">
+              <span class="contact-link-icon">✉</span>
+              <div>
+                <strong>Email</strong>
+                <p>tejaswi02086@gmail.com</p>
+              </div>
+            </a>
+            <a href="https://instagram.com/t3jswii.co" target="_blank" rel="noopener" class="contact-link glass">
+              <span class="contact-link-icon">◈</span>
+              <div>
+                <strong>Instagram</strong>
+                <p>@t3jswii.co</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap glass" data-reveal>
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="service">Service Interested In</label>
+              <select id="service" name="service">
+                <option value="">Select a service…</option>
+                <option>Logo Design</option>
+                <option>Brand Identity</option>
+                <option>Packaging Design</option>
+                <option>Business Card Design</option>
+                <option>Social Media Design</option>
+                <option>Brand Guidelines</option>
+                <option>Mockup Presentation</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Tell Me About Your Project</label>
+              <textarea id="message" name="message" placeholder="Describe your brand, goals, and vision…" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary ripple full-width">Send Message ✦</button>
+            <p class="form-note" id="formNote"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════ FOOTER ═══════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo footer-logo">Tejaswi<span>.</span></a>
+          <p>Designing brands that people remember — one mark at a time.</p>
+          <div class="footer-socials">
+            <a href="mailto:tejaswi02086@gmail.com" aria-label="Email" class="social-btn">✉</a>
+            <a href="https://instagram.com/t3jswii.co" target="_blank" rel="noopener" aria-label="Instagram" class="social-btn">◈</a>
+          </div>
+        </div>
+        <div class="footer-links-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#logos">Logo Gallery</a></li>
+            <li><a href="#mockups">Mockup Gallery</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Logo Design</a></li>
+            <li><a href="#services">Brand Identity</a></li>
+            <li><a href="#services">Packaging Design</a></li>
+            <li><a href="#services">Social Media</a></li>
+            <li><a href="#services">Brand Guidelines</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Tejaswi Thakur. All rights reserved.</p>
+        <p>Crafted with ♥ and a lot of Poppins.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+    <img src="" alt="" id="lightboxImg" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
